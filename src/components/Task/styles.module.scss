@@ -1,0 +1,24 @@
+.container {
+    display: grid;
+    grid-auto-columns: max-content;
+    grid-auto-flow: column;
+    place-items: center;
+    gap: 0.5rem;
+}
+
+.completed {
+    text-decoration: line-through;
+    margin-left: 3px;
+}
+
+.bold {
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+.img {
+    height: 12px;
+    width: 12px;
+    // margin: 5px;
+    // margin-bottom: -2px;
+}
